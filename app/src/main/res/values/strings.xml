@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoginScreen</string>
+    <string name="txtLogin">Username</string>
+    <string name="txtPassword">Password</string>
+    <string name="loginHint">Enter a Username</string>
+    <string name="passwordHint">Enter your Password</string>
+    <string name="loginButtonText">Login</string>
+    
+    <string name="errMessageLogin">Invalid Login. Please Try Again</string>
+    <string name="errMessagePassword">Invalid Password. Please Try Again</string>
+</resources>
