@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import android.content.Intent
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         val btnLogin = findViewById<Button>(R.id.idButton)
 
         btnLogin.setOnClickListener {
+            val intent = Intent(this, MainClassList::class.java)
             when(CheckLogin(txtLogin.text.toString(), txtPassword.text.toString())){
                 LoginSuccess.login -> {
                     Toast.makeText(applicationContext, getString(R.string.errMessageLogin), Toast.LENGTH_LONG).show()
@@ -33,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 else ->
-                    Toast.makeText(applicationContext, "Success", Toast.LENGTH_LONG).show()
+                    startActivity(intent)
             }
         }
     }
@@ -48,5 +50,7 @@ class MainActivity : AppCompatActivity() {
         return if (holdPass != txtPassword){
             return LoginSuccess.password
         }else LoginSuccess.success
+//        val intent = Intent(this, MainClassList::class.java)
+//        startActivity(intent)
     }
 }

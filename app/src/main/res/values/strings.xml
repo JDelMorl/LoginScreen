@@ -5,7 +5,41 @@
     <string name="loginHint">Enter a Username</string>
     <string name="passwordHint">Enter your Password</string>
     <string name="loginButtonText">Login</string>
-    
+
     <string name="errMessageLogin">Invalid Login. Please Try Again</string>
     <string name="errMessagePassword">Invalid Password. Please Try Again</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="dob">Date of Birth</string>
+    <string name="day">Day</string>
+    <string name="year">Year</string>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string name="asscos">Associates Degree</string>
+    <string name="certificate">Certificate</string>
+    <string name="major">Major</string>
+    <string name="txtNext">Next</string>
+    <string-array name="arryCertificate">
+        <item>Ios Certificate</item>
+        <item>Android Certificate</item>
+    </string-array>
+    <string-array name="lstMajor">
+        <item>Digital Media</item>
+        <item>Mobile Application Development</item>
+        <item>Web Development</item>
+    </string-array>
+
 </resources>
