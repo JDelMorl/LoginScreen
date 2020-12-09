@@ -61,6 +61,7 @@
     <string name="sumDegree">Degree Plan:</string>
     <string name="sumMajor">Major:</string>
     <string name="sumNext">Next Semester:</string>
+    <string name="next">Next</string>
 
 
 </resources>
