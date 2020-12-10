@@ -4,6 +4,7 @@ import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.*
 
 class ChooseClass : AppCompatActivity() {
@@ -224,6 +225,7 @@ class ChooseClass : AppCompatActivity() {
                 enableDisable(ctv1, rb1 ,rb2, Color.WHITE, false)
             }else{
                 enableDisable(ctv1, rb1 ,rb2, Color.GRAY, true)
+                rb1!!.isChecked = true
             }
 
         }
@@ -232,6 +234,7 @@ class ChooseClass : AppCompatActivity() {
                 enableDisable(ctv2, rb3 ,rb4, Color.WHITE, false)
             }else{
                 enableDisable(ctv2, rb3 ,rb4, Color.GRAY, true)
+                rb3!!.isChecked = true
             }
 
         }
@@ -240,6 +243,7 @@ class ChooseClass : AppCompatActivity() {
                 enableDisable(ctv3, rb5 ,rb6, Color.WHITE, false)
             }else{
                 enableDisable(ctv3, rb5 ,rb6, Color.GRAY, true)
+                rb5!!.isChecked = true
             }
 
         }
@@ -248,6 +252,7 @@ class ChooseClass : AppCompatActivity() {
                 enableDisable(ctv4, rb7 ,rb8, Color.WHITE, false)
             }else{
                 enableDisable(ctv4, rb7 ,rb8, Color.GRAY, true)
+                rb7!!.isChecked = true
             }
 
         }
